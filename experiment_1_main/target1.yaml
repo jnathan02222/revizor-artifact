@@ -1,15 +1,15 @@
 instruction_categories:
-  - NOP
-  - BINARY
-  - BITBYTE
-  - CMOV
-  - CONVERT
-  - DATAXFER
-  - FLAGOP
-  - SETCC
-  - LOGICAL
-  - POP
-  - PUSH
+  - BASE-NOP
+  - BASE-BINARY
+  - BASE-BITBYTE
+  - BASE-CMOV
+  - BASE-CONVERT
+  - BASE-DATAXFER
+  - BASE-FLAGOP
+  - BASE-SETCC
+  - BASE-LOGICAL
+  - BASE-POP
+  - BASE-PUSH
 extended_instruction_blocklist:
   - IDIV
   - REX IDIV
