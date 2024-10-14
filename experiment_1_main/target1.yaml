@@ -10,12 +10,7 @@ instruction_categories:
   - BASE-LOGICAL
   - BASE-POP
   - BASE-PUSH
-extended_instruction_blocklist:
-  - IDIV
-  - REX IDIV
-  - DIV
-  - REX DIV
+
 avg_mem_accesses: 0
 
-enable_ssbp_patch: false
-enable_assist_page: false
+x86_executor_enable_ssbp_patch: false
