@@ -1,4 +1,4 @@
-supported_categories:
+instruction_categories:
   - NOP
   - BINARY
   - BITBYTE
