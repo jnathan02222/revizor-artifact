@@ -29,10 +29,9 @@ for target in target1 target2 target3 target4 target5 target6 target7-8; do
 
         # patch the config to set the correct contract
         cp "$SCRIPT_DIR/$target.yaml" $conf
-        echo "prng_entropy_bits: 2
-feedback_driven_generator: true
+        echo "input_gen_entropy_bits: 2
 contract_observation_mode: ct
-contract_execution_mode:" >> $conf
+contract_execution_clause:" >> $conf
         if [ $contract == "seq" ]; then
             echo "- seq" >> $conf
         elif [ $contract == "cond" ]; then
