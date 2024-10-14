@@ -9,7 +9,7 @@ timestamp=$(date '+%y-%m-%d-%H-%M')
 revizor_src='./revizor'
 instructions="$revizor_src/src/x86/executor/base.json"
 
-exp_dir="results/experiment_1/$timestamp"
+exp_dir="./results/experiment_1/$timestamp"
 mkdir $exp_dir
 
 log="$exp_dir/experiment.log"
