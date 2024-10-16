@@ -1,20 +1,20 @@
-supported_categories:
-  - NOP
-  - BINARY
-  - BITBYTE
-  - COND_BR
-  - CMOV
-  - CONVERT
-  - DATAXFER
-  - FLAGOP
-  - SETCC
-  - LOGICAL
-  - POP
-  - PUSH
-contract_observation_mode: arch
-contract_execution_mode:
+instruction_categories:
+  - BASE-NOP
+  - BASE-BINARY
+  - BASE-BITBYTE
+  - BASE-COND_BR
+  - BASE-CMOV
+  - BASE-CONVERT
+  - BASE-DATAXFER
+  - BASE-FLAGOP
+  - BASE-SETCC
+  - BASE-LOGICAL
+  - BASE-POP
+  - BASE-PUSH
+contract_observation_clause: arch
+contract_execution_clause:
   - seq
 
-enable_ssbp_patch: true
-enable_assist_page: false
-prng_entropy_bits: 2
+x86_executor_enable_ssbp_patch: true
+
+input_gen_entropy_bits: 2
